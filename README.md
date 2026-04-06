@@ -2,7 +2,7 @@
 
 ---
 
-## Описание проекта
+## Описание проекта | Project Description
 
 Данный репозиторий содержит простой UI автотест для заполнения и отправки веб-формы. Тест реализован с использованием Selenium и PyTest.
 
@@ -32,6 +32,20 @@
 
 ## Содержание
 
+- [Описание проекта | Project Description](#описание-проекта--project-description)
+- [Требования | Pre-requisites](#требования--pre-requisites)
+  - [Тестируемый вебсайт | Tested Website](#тестируемый-вебсайт--tested-website)
+- [Технологии | Tech Stack](#технологии--tech-stack)
+- [Как запустить автотесты? | How to run Tests?](#как-запустить-автотесты--how-to-run-tests)
+  - [Локальная установка проекта | Local Installation Guide](#локальная-установка-проекта--local-installation-guide)
+- [Тестовая документация | Test Documentation](#тестовая-документация--test-documentation)
+  - [Тест-кейсы | Test Cases](#тест-кейсы--test-cases)
+    - [TC01 - Successful Form Submission (Positive)](#tc01---successful-form-submission-positive)
+    - [TC02 - Invalid Email (Negative)](#tc02---invalid-email-negative)
+    - [TC03 - No Email (Positive)](#tc03---no-email-positive)
+    - [TC04 - No Name (Negative)](#tc04---no-name-negative)
+    - [TC05 - Invalid Name (Negative)](#tc05---invalid-name-negative)
+- [Allure Report](#allure-report)
 
 ---
 
@@ -71,7 +85,6 @@
     pytest --alluredir=allure-results
     allure serve allure-results
 ```
-
 
 ---
 
